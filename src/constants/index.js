@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Quality Opportunities",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Discover high-quality internship and training opportunities tailored to your career goals.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Secure Platform",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Rest assured, our platform prioritizes security to safeguard your personal information and transactions.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Expert Guidance",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Receive expert guidance and support throughout your internship and training journey.",
   },
 ];
 
@@ -73,20 +73,21 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Internships",
+    value: "100+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Companies",
+    value: "50+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Placements",
+    value: "200+",
   },
 ];
+
 
 export const footerLinks = [
   {
@@ -173,7 +174,7 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/evointern/",
   },
 ];
 

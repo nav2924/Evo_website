@@ -24,8 +24,11 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import hero from "./hero.png";
-
+import intern from "./intern.png";
+import widgets from "./widgets.svg";
 export {
+  widgets,
+  intern,
   hero,
   airbnb,
   bill,
