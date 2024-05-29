@@ -1,0 +1,90 @@
+{
+    "type": "FlightsCollection",
+    "flights": [
+        {
+            "type": "flight",
+            "order": 1,
+            "from": "JFK",
+            "to": "LHR",
+            "flightCode": "BA 178",
+            "date": "Apr 14, 2023",
+            "status": true,
+            "startLat": 40.6413,
+            "startLng": -73.7781,
+            "endLat": 51.4700,
+            "endLng": -0.4543,
+            "arcAlt": 0.25
+        },
+        {
+            "type": "flight",
+            "order": 2,
+            "from": "LHR",
+            "to": "DEL",
+            "flightCode": "AI 162",
+            "date": "Apr 15, 2023",
+            "status": true,
+            "startLat": 51.4700,
+            "startLng": -0.4543,
+            "endLat": 28.5562,
+            "endLng": 77.1000,
+            "arcAlt": 0.3
+        },
+        {
+            "type": "flight",
+            "order": 3,
+            "from": "DEL",
+            "to": "ICN",
+            "flightCode": "KE 482",
+            "date": "Apr 16, 2023",
+            "status": true,
+            "startLat": 28.5562,
+            "startLng": 77.1000,
+            "endLat": 37.472222222222,
+            "endLng": 126.60833333333,
+            "arcAlt": 0.35
+        },
+        {
+            "type": "flight",
+            "order": 4,
+            "from": "ICN",
+            "to": "SYD",
+            "flightCode": "QF 88",
+            "date": "Apr 17, 2023",
+            "status": true,
+            "startLat": 37.472222222222,
+            "startLng": 126.60833333333,
+            "endLat": -33.9399,
+            "endLng": 151.1753,
+            "arcAlt": 0.4
+        },
+        {
+            "type": "flight",
+            "order": 5,
+            "from": "SYD",
+            "to": "GRU",
+            "flightCode": "LA 801",
+            "date": "Apr 18, 2023",
+            "status": true,
+            "startLat": -33.9399,
+            "startLng": 151.1753,
+            "endLat": -23.4356,
+            "endLng": -46.4731,
+            "arcAlt": 0.45
+        },
+        {
+            "type": "flight",
+            "order": 6,
+            "from": "GRU",
+            "to": "JFK",
+            "flightCode": "AA 950",
+            "date": "Apr 19, 2023",
+            "status": true,
+            "startLat": -23.4356,
+            "startLng": -46.4731,
+            "endLat": 40.6413,
+            "endLng": -73.7781,
+            "arcAlt": 0.5
+        }
+        
+    ]
+}

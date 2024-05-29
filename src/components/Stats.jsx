@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { stats } from "../constants";
 import styles from "../style";
 import CountUp from "react-countup";
@@ -6,6 +6,7 @@ import ScrollTrigger from "react-scroll-trigger";
 
 const Stats = () => {
   const [scrollCounterOn, setScrollCounterOn] = useState(false);
+  const myElementRef = useRef(null);
   return (
     <section
       className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}
@@ -16,6 +17,7 @@ const Stats = () => {
 
         return (
           <div
+            ref={myElementRef}
             key={stat.id}
             className={`flex-1 flex justify-start items-center flex-row m-3`}
           >
