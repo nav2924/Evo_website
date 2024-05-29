@@ -149,3 +149,11 @@ body {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+/* Add this to your Tailwind CSS file or a custom CSS file */
+.course-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.course-card:hover {
+  transform: translateY(-10px);
+}

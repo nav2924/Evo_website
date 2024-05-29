@@ -42,16 +42,13 @@ function Home() {
         </div>
       </div>
 
-      <div style={{ height: "15vh" }}></div>
+      <div style={{ height: "15vh" }} />
 
       <div className={`bg-black ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Business />
           <CardDeal />
-          <Testimonials />
-          <Clients />
-          <CTA />
           <Footer />
         </div>
       </div>

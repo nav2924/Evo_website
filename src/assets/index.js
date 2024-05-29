@@ -26,7 +26,15 @@ import people03 from "./people03.png";
 import hero from "./hero.png";
 import intern from "./intern.png";
 import widgets from "./widgets.svg";
+import c from "./c++.png"
+import aiml from "./Aiml.pppmg.png"
+import webdev from "./web_dev.png"
+import py from "./py.png"
 export {
+  c,
+  aiml,
+  webdev,
+  py,
   widgets,
   intern,
   hero,

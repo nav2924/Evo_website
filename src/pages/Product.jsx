@@ -1,11 +1,31 @@
 import React from "react";
-import { GlobeDemo, Navbar } from "../components";
+import {
+  Clients,
+  FeedbackCard,
+  GlobeDemo,
+  Navbar,
+  Footer,
+} from "../components";
 import styles from "../style";
-import CoursesOffered from "../components/CoursesOffered";
+import Lenis from "lenis";
+import { useEffect } from "react";
 
 function Product() {
+  useEffect(() => {
+    const lenis = new Lenis({
+      duration: 2,
+    });
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+  }, []);
   return (
-    <div className="bg-black w-full overflow-hidden">
+    <div
+      style={{ backgroundColor: "#00040F" }}
+      className="w-full overflow-hidden"
+    >
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
@@ -29,7 +49,19 @@ function Product() {
           </div>
         </div>
       </div>
-      <CoursesOffered />
+      <div style={{ height: "15vh" }} />
+
+      <div className={`bg-black ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <h2 className="text-center text-xl md:text-4xl font-bold text-white dark:text-white mb-24">
+            Courses We offer are
+          </h2>
+          <FeedbackCard />
+          <div className="mt-32">
+            <Footer />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

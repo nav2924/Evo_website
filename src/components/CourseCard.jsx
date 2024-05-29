@@ -16,13 +16,13 @@ function CourseCard({ image, title, description }) {
         {description}
       </p>
       <button className="px-6 py-2 bg-blue-600 text-white rounded-md">
-        Click here to fill form
+        Learn More
       </button>
     </div>
   );
 }
 
-function FeedbackCard() {
+function CourseOffering() {
   const courses = [
     {
       image: aiml,
@@ -70,4 +70,4 @@ function FeedbackCard() {
   );
 }
 
-export default FeedbackCard;
+export default CourseOffering;
