@@ -178,7 +178,7 @@ const GlobeDemo = () => {
       // Clean up on component unmount
       mountRef.current.removeChild(renderer.domElement);
       window.removeEventListener("resize", onWindowResize, false);
-      document.removeEventListener("mousemove", onMouseMove);
+      document.removeEventListener("mousemove", onMouseMove, false);
     };
   }, []);
 
