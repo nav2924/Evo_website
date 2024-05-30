@@ -26,7 +26,7 @@ const Navbar = () => {
           className={`font-poppins font-normal cursor-pointer text-[16px] text-dimWhite`}
           onClick={() => setActive("Features")}
         >
-          <Link to="/features">Features</Link>
+          <Link to="/course">Course</Link>
         </li>
       </ul>
     </nav>
