@@ -15,8 +15,9 @@ function CourseCard({ image, title, description }) {
       <p className="font-poppins font-normal text-[18px] leading-[28px] text-white mb-6">
         {description}
       </p>
+
       <button className="px-6 py-2 bg-blue-600 text-white rounded-md">
-        Click here to fill form
+        Click here to fill form{" "}
       </button>
     </div>
   );

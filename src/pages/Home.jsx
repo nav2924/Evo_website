@@ -19,7 +19,7 @@ import { useEffect } from "react";
 function Home() {
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 2,
+      duration: 4,
     });
     function raf(time) {
       lenis.raf(time);
